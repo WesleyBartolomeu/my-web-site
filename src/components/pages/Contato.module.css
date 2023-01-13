@@ -1,0 +1,13 @@
+.contact_container {
+background-color: antiquewhite;
+
+  }
+  
+.contact_container form {
+    background-color: rgb(200, 152, 89);
+  }
+  
+.contact_container label, input, textarea {
+
+    background-color: rgb(8, 11, 67);
+  }
