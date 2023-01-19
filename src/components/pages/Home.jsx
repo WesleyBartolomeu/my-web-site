@@ -1,12 +1,14 @@
 import styles from './Home.module.css';
+import LeftMenu from '../layout/LeftMenu';
+
 
 function Home()  {
     return (
-        <div className={styles.body}>
-            <section>
-                <h1>TESTE HOME</h1>
-            </section>
-        </div>
+
+        <div className={styles.home_side}>
+        <LeftMenu/>
+
+    </div>
     );
 }
 
