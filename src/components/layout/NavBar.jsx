@@ -6,9 +6,6 @@ import mainLogoW from "../images/logo_w_small.png"
 import weshome from '../images/foto_wes_home.jpeg'
 import Home from '../pages/Home'
 
-
-
-
 function NavBar() {
 
 return(         
