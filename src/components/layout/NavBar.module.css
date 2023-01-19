@@ -1,15 +1,7 @@
   .navbar {
-    background-color: #D9D8D7;
-    padding-left: 5%;
-    padding-right: 5%;
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
-
-  }
-  .navbar nav {
-    display: flex;
-    flex-direction: row;
+    justify-content: flex-start;
   }
   .navbar img {
     width: 120px;
@@ -18,24 +10,21 @@
   .navbar ul {
     display: flex;
     list-style: none;
-    align-items: center;
-
   }
   .navbar li {
-    padding-left: 40px;
+    padding: 35px;
     font-size: 17px;  
   }
   .navbar li a {
     font-family: 'Sofia Sans', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 25px;
     color: #025E73;
     text-decoration: none;
   }
-
   .navbar li a:hover {
     color: rgb(80, 63, 63);
   }
 
-  /* Menu Lateral */ 
+
 
