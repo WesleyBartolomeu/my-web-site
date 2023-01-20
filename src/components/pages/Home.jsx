@@ -16,13 +16,13 @@ function Home() {
                 rel="noopener noreferrer" target="_blank"><img src={sunnyside} alt=""/></a>  
              <a href="https://github.com/WesleyBartolomeu/Dechra-Clone-Aprendizado" 
                 rel="noopener noreferrer" target="_blank"><img src={dechra} alt="" /></a>
-                       </div>   
+               </div>   
             <div className={styles.sites}> 
              <a href="https://github.com/WesleyBartolomeu/Desafio-launch-countdown-timer"  
                 rel="noopener noreferrer" target="_blank"><img src={countdown} alt="" /></a>
              <a href="https://github.com/WesleyBartolomeu/AndroidStudios_ControlApp" 
                 rel="noopener noreferrer" target="_blank"><img src={controlapp} alt="" /></a>
-            </div>       
+               </div>       
          </div>
     </section>
     
