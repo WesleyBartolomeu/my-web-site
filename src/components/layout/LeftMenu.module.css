@@ -1,51 +1,50 @@
 
-  .side_menu {
-    width: 520px;
-    padding-top: 2%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-right: solid 1px silver;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-family: 'Sofia Sans', sans-serif;
-    background-color: #D9D8D7;
+.side_menu {
+  width: 520px;
+  padding-top: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: solid 1px silver;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: 'Sofia Sans', sans-serif;
+  background-color: #D9D8D7;
   }
-  .side_menu img {
-    width: 110px;
-    height: auto;
-    border-radius: 50px;
+.side_menu img {
+  width: 110px;
+  height: auto;
+  border-radius: 50px;
   }
-  .side_menu h1 {
-    font-family: 'Sofia Sans', sans-serif;
-    text-align: center;
-    padding-top: 30px;
-    color: black;
-    font-weight: 500;
-    }
-    .side_menu h2 {
-    padding-top: 30px;
-    text-align: center;
-    font-size: 15px;
-    font-weight: 400;
-    }
+.side_menu h1 {
+  font-family: 'Sofia Sans', sans-serif;
+  text-align: center;
+  padding-top: 30px;
+  color: black;
+  font-weight: 500;
+  }
+.side_menu h2 {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  }
 
-    .side_menu_tec {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    }
+.side_menu_tec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
 
-    .side_menu_tec h3 {
-    padding-top: 30px;
-    padding-bottom: 25px;
-    font-weight: 200;
-
-    }
-    .side_menu_tec p {
-    display: flex;
-    font-size: 40px;
-    padding: 5px;
+.side_menu_tec h3 {
+  padding-top: 30px;
+  padding-bottom: 25px;
+  font-weight: 200;
+  }
+.side_menu_tec p {
+  display: flex;
+  font-size: 40px;
+  padding: 5px;
 
 }
 .icons {
@@ -72,7 +71,6 @@
   color:#01579B; 
 }
 
-
 /* Contato btns */
 
 .contato a {
@@ -92,7 +90,6 @@
 .contato a span {
   padding-left: 3px;
 }
-
 .contato a:hover {
 box-shadow: 4px 4px 15px 1px rgb(108, 108, 108);
 }
@@ -100,7 +97,6 @@ box-shadow: 4px 4px 15px 1px rgb(108, 108, 108);
 background-color: black;
 color: white;
 } 
-
 .linkedin {
 background-color: #0288D1;
 color: white;
@@ -108,7 +104,6 @@ color: white;
 .twitter {
 background-color: #03A9F4;
 color: white;
-
 }
 .gmail {
 background-color: #EEEEEE;
@@ -119,7 +114,6 @@ color: white;
 background-image:linear-gradient(5deg, #FFFFFF,#FFECB3,#FFE082,#FFD54F,#FFC107,#FF9800,#FF6F00,
 #FF5722,#FF1744,#F50057,#D81B60,#C2185B,#8E24AA,#673AB7,#6200EA,#4928F4,#304FFE); ;
 }
-
 
 @media screen and (max-width: 480px) { 
   .side_menu {

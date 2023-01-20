@@ -5,7 +5,7 @@ import countdown from "../images/Countdown-redi.png"
 import dechra from "../images/Decrha-redi.png"
 import controlapp from "../images/ControlApp-redi.png"
 
-function Projetos() {
+function Home() {
     return (
     <section className={styles.projetos_page_menu}>
         <LeftMenu/>
@@ -28,4 +28,4 @@ function Projetos() {
     
     )
 }
-export default Projetos
+export default Home
