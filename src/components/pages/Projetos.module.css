@@ -1,40 +1,107 @@
 
 .projetos_page_menu {
     display: flex;
+    padding-top: 25px;
 }
 .flex {
+    width: 100%;
     font-family: 'Sofia Sans', sans-serif;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 .flex h2 {
-    align-items: center;
-    font-weight: 400;
+    font-weight: 300;
     color: rgb(77, 77, 77);
 }
 .sites{
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    align-items:center;
 }
 .sites a {
-    width: 550px;
-    height: 450px;
-
+    padding: 10px;
+    width:  100%;
+    height: auto;
 }
 .sites img {
     width: 100%;
-    height: 90%;
-    padding: 10px;
+    height: 385px;
 }
-
-
-
 .sites img:hover {
     cursor: pointer;
     box-shadow: 4px 4px 15px 1px rgb(108, 108, 108);
 }
+
+
+@media screen and (max-width: 480px) { 
+    .projetos_page_menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+    }
+    .flex {
+        padding-top: 15px;
+    }
+    .sites {
+        display: flex;
+        flex-direction: column;
+        padding-top: 15px; 
+    }
+}
+
+@media screen and (max-width: 640px) { 
+    .projetos_page_menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+    }
+    .flex {
+        padding-top: 15px;
+    }
+    .sites {
+        display: flex;
+        flex-direction: column;
+        padding-top: 15px; 
+    }
+}
+
+@media screen and (max-width: 768px) { 
+    .projetos_page_menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+    }
+    .flex {
+        padding-top: 15px;
+    }
+    .sites {
+        display: flex;
+        flex-direction: column;
+        padding-top: 15px; 
+    }
+}
+
+@media screen and (max-width: 960px) { 
+    .projetos_page_menu {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .flex {
+        padding-top: 15px;
+    }
+    .sites {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding-top: 15px; 
+    }
+}
+
+
 
