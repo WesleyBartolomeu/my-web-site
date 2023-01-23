@@ -27,8 +27,8 @@ function LeftMenu()  {
                <h2>Fale comigo por esses Canais</h2>
             <a href="https://www.linkedin.com/in/wesley-bartolomeu-santos/" target="_blank" rel="noreferrer noopener"  className={styles.linkedin}><IoLogoLinkedin/><span>Wesley.Bartolomeu</span> </a>
             <a href="https://github.com/WesleyBartolomeu" target="_blank" rel="noreferrer noopener"  className={styles.github}><IoLogoGithub/> <span>WesleyBartolomeu</span> </a>
-            <a href="https://www.instagram.com/wesleybartsantos/?igshid=ZmZhODViOGI%3D" target="_blank" rel="noreferrer noopener" className={styles.instagram}><SiInstagram/> <span>Wesley-Bsantos</span> </a>
-            <a href="mailto:wesleybsantos42@gmail.com"  target="_blank" rel="noreferrer noopener" className={styles.gmail}><SiGmail/><span>Wesley-Bsantos</span></a>
+            <a href="https://www.instagram.com/wesleybartsantos/?igshid=ZmZhODViOGI%3D" target="_blank" rel="noreferrer noopener" className={styles.instagram}><SiInstagram/> <span>WesleyBartSantos</span> </a>
+            <a href="mailto:wesleybsantos42@gmail.com"  target="_blank" rel="noreferrer noopener" className={styles.gmail}><SiGmail/><span>Wesley-Bsantos42</span></a>
             </div>
             </section>
     );

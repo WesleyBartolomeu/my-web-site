@@ -88,9 +88,10 @@
   margin: 0 auto;
 }
 .contato a span {
-  padding-left: 3px;
+  padding-left: 5px;
 }
 .contato a:hover {
+transition: 0.6s;
 box-shadow: 4px 4px 15px 1px rgb(108, 108, 108);
 }
 .github {

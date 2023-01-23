@@ -1,5 +1,5 @@
 import LeftMenu from "../layout/LeftMenu"
-import styles from "../pages/Projetos.module.css"
+import styles from "../pages/Home.module.css"
 import sunnyside from "../images/sunnyside-redi.png"
 import countdown from "../images/Countdown-redi.png"
 import dechra from "../images/Decrha-redi.png"
