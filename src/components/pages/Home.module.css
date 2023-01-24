@@ -1,7 +1,6 @@
 
 .projetos_page_menu {
     display: flex;
-    padding-top: 30px;
 }
 .flex {
     width: 100%;
@@ -10,29 +9,29 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding-left: 4%;
-    padding-right: 4%;
+    padding-top: 1%;
 }
 .flex h2  {
     font-weight: 300;
-    padding-top: 7px;
-    padding-bottom: 20px;
+    padding-bottom: 1%;
     color: rgb(77, 77, 77);
 }
 .sites{
+    padding-left: 2% ;
+    padding-right: 2%;
     display: flex;
     align-items: center;
     justify-content: center;
     align-items:center;
 }
 .sites a {
-    padding: 10px;
+    margin: 0.7%;
     width:  100%;
     height: auto;
 }
 .sites img {
     width: 100%;
-    height: 385.5px;
+    height: 380.5px;
 }
 .sites img:hover {
     cursor: pointer;
