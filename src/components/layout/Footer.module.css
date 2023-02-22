@@ -1,7 +1,7 @@
 .footer {
     width: 100%;
     bottom: 0;
-    position:static;
+    position:absolute;
     padding-left: 50px;
     padding-right: 50px;
     color: aliceblue;

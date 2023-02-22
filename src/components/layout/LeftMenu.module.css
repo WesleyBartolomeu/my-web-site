@@ -1,5 +1,6 @@
 
 .side_menu {
+  height: 100vh;
   box-sizing: border-box;
   width: 580px;
   padding: 1%;

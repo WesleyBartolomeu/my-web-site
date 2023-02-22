@@ -7,14 +7,10 @@ import Container from './components/layout/Container';
 
 function App() {
   return (
-    <Router>
       <Container>
-          <Routes>
-              <Route path="/" element={<Home />}/>
-          </Routes>
-          <Footer/>
-       </Container>
-    </Router>
+        <Home />
+        <Footer/>
+      </Container>
   );
 }
 
