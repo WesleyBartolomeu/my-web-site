@@ -9,7 +9,7 @@ function Footer() {
     
     <div className={styles.footer}>
         <div className={styles.copyright}>
-            <p><BiCopyright/>Wesley Bartolomeu dos Santos</p>
+            <p><BiCopyright/>Wesley Bartolomeu </p>
         </div>
         <div className={styles.social}>
             <a  href="https://twitter.com/home?lang=pt"><CiTwitter/></a>
