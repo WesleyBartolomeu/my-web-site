@@ -11,7 +11,7 @@ function LeftMenu()  {
             <section className={styles.side_menu}>
                 <img src={weshome} alt="" />
                 <h1>Olá, Me chamo Wesley Bartolomeu <br/> e sou desenvolvedor Front-end. </h1>
-                <h2> Estudante de Analise e Desenvolvimento de Sistemas  <br />| Desenvolvedor Front-end | Estudando React | Buscando Job |</h2>
+                <h2> Estudante de Analise e Desenvolvimento de Sistemas  <br />| Desenvolvedor Front-end | Estudando React | WebMaster Jr in Tbb |</h2>
                 <div className={styles.side_menu_tec}>
                     <h3>Tecnologias que tenho familiaridade</h3>
                     <div className={styles.icons}>
