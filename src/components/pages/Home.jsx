@@ -3,7 +3,7 @@ import styles from "../pages/Home.module.css"
 import sunnyside from "../images/Sunny1.png"
 import countdown from "../images/Countdown.png"
 import dechra from "../images/Derch.png"
-import controlapp from "../images/Controlapp.png"
+import quebrando from "../images/quebrandobarreiras-v2.png"
 
 function Home() {
     return (
@@ -20,8 +20,8 @@ function Home() {
             <div className={styles.sites}> 
              <a href="https://github.com/WesleyBartolomeu/Desafio-launch-countdown-timer"  
                 rel="noopener noreferrer" target="_blank"><img src={countdown} alt="" /></a>
-             <a href="https://github.com/WesleyBartolomeu/AndroidStudios_ControlApp" 
-                rel="noopener noreferrer" target="_blank"><img src={controlapp} alt="" /></a>
+             <a href="https://quebrandobarreiras.rexona.com.br/pt-BR/" 
+                rel="noopener noreferrer" target="_blank"><img src={quebrando} alt="" /></a>
                </div>       
          </div>
     </section>
